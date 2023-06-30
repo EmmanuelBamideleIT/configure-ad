@@ -30,7 +30,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/4GBI1zE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Section 1: Setup Resources in Azure
@@ -61,7 +61,7 @@ Verify that the ping from "Client-1" to "DC-1" succeeds.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/9Mqi6eg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Section 2: Install Active Directory
@@ -85,7 +85,7 @@ Use "jane_admin" as the admin account from now on.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Wc0ijUv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Section 3: Join Client-1 to the Domain and Configure Remote Desktop
