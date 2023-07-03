@@ -29,10 +29,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-<p>
-<img src="https://imgur.com/4GBI1zE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+
 Section 1: Setup Resources in Azure
 
 Create the Domain Controller VM:
@@ -59,10 +56,11 @@ Ensure that the firewall rule allows ping requests.
 Verify that the ping from "Client-1" to "DC-1" succeeds.
 </p>
 <br />
-
 <p>
-<img src="https://imgur.com/9Mqi6eg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/4GBI1zE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+
 <p>
 Section 2: Install Active Directory
 
@@ -83,10 +81,11 @@ Log out/close the Remote Desktop connection to "DC-1" and log back in as "mydoma
 Use "jane_admin" as the admin account from now on.
 </p>
 <br />
-
 <p>
-<img src="https://imgur.com/Wc0ijUv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/9Mqi6eg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+
 <p>
 Section 3: Join Client-1 to the Domain and Configure Remote Desktop
 
@@ -113,3 +112,5 @@ Run the script and observe the accounts being created.
 Open ADUC and verify that the accounts are in the appropriate OU.
 Attempt to log into Client-1 with one of the newly created user accounts (note the password from the script).</p>
 <br />
+<img src="https://imgur.com/Wc0ijUv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
